@@ -1,0 +1,91 @@
+#mainDiv {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border: 5px solid black;
+	background: url('./pics/background.jpg') no-repeat;
+	width: 880px;
+	height: 560px;
+}
+
+#messageArea {
+	position: absolute;
+	color:#E41818;
+	text-shadow: 3px 3px 5px black, 3px -3px 5px black, -3px 3px 5px black, -3px -3px 5px black;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+table {
+	position: absolute;
+	border-collapse: collapse;
+}
+
+td, th {
+	border: 2px solid maroon;
+	border-color: #B8B8D3;
+	padding: 30px;
+	margin: 0;
+	color: white;
+	text-shadow: 3px 3px 5px black, 3px -3px 5px black, -3px 3px 5px black, -3px -3px 5px black;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+form {
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 620px;
+}
+
+input#guessInput {
+	font-size: 20px;
+	width: 60px;
+	height: 30px;
+	margin-right: 20px;
+	background-color: #B8B8D3;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}
+
+input#fireButton {
+	font-size: 20px;
+	width: 90px;
+	height: 40px;
+	background-color: #dd5a5a;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: blanchedalmond;
+	text-shadow: 1px 1px 1px black, 1px -1px 1px black, -1px 1px 1px black, -1px -1px 1px black;
+	transition: 0.3s;
+	border-radius: 7px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+#fireButton:hover{
+	background-color: #dd0b16;
+}
+
+#fireButton:active{
+	background-color: black;
+}
+
+.hit {
+	background: url("pics/shiiiip.png") no-repeat center center;
+}
+
+.miss {
+	background: url("pics/red2.png") no-repeat center center;
+}
+
+.hint {
+	color:#5EC455;
+	text-shadow: 3px 3px 5px black, 3px -3px 5px black, -3px 3px 5px black, -3px -3px 5px black;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: sans-serif;
+}
